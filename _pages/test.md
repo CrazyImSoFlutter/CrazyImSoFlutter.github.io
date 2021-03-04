@@ -6,4 +6,5 @@ author_profile: true
 taxonomy: test
 ---
 
-test categories
+
+test
