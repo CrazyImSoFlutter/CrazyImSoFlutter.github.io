@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "이 블로그에 관해"
+  - title: "코라니의 숲"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "카테고리"
+    url: /categories/
+  - title: "태그"
+    url: /tags/
   # - title: "Sitemap"
   #   url: /sitemap/
