@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "코딩하는 고라니"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/corani.png"
   bio              : "코라니(github : CrazyImSoFlutter)"
   location         : "South Korea"
   email            : "nhg1113@naver.com"
