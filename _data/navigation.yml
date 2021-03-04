@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "코라니의 숲"
-    url: /about/
   - title: "카테고리"
     url: /categories/
   - title: "태그"
     url: /tags/
+  - title: "코라니의 숲"
+    url: /about/
   # - title: "Sitemap"
   #   url: /sitemap/
