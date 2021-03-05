@@ -3,7 +3,7 @@ title: "Swift-Strings and Characters"
 excerpt: "Swift 공식 문서"
 toc: true
 toc_sticky: true
-toc_label "Swift-Strings and Characters"
+toc_label: "Swift-Strings and Characters"
 categories:
  - iOS 공식문서
 tags:
