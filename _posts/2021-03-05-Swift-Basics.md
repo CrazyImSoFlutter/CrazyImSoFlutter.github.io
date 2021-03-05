@@ -32,7 +32,7 @@ Swift에서는 Optional Type(옵셔널 타입)을 제공하는데, 이는 값이
 
 이는 **옵셔널 타입**에도 적용된다. 예를 들어 일반 String 변수에 옵셔널 String 변수를 사용하려고 하면 오류를 발생시킨다.
 
-# Constants and Variables
+# <span style="color:blue">Constants and Variables</span>
 
 ## Declaring constants and variables
 
