@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "iOS-공식문서"
+    url: /categories/iOS 공식문서/
   - title: "카테고리"
     url: /categories/
   - title: "태그"
