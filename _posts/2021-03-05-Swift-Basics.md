@@ -1,14 +1,13 @@
 ---
 title: "The Basics"
 excerpt: "Swift 공식 문서"
-
+toc: true
+toc_label: "Swift-The Basics"
 categories:
  - iOS
 tags:
  - iOS
  - Basics
-toc: true
-toc_label: "Swift-The Basics"
 ---
 
 # The Basics
