@@ -22,7 +22,7 @@ Swift에서 문자열 및 문자 타입은 코드에서 텍스트를 유니코�
 
 Swift의 문자열은 **유니코드 문자**로 구성된다고 한다.
 
-# String Literals
+# <span style="color:blue">String Literals</span>
 
 개발자는 미리 정의되어 있는 String 값으로 문자열을 사용할 수 있다.
 
@@ -124,7 +124,7 @@ Here are three more double quotes: """
 """#
 ```
 
-# Initializing an Empty String
+# <span style="color:blue">Initializing an Empty String</span>
 
 빈 문자열을 만들 때 두가지 방법이 있는데 아래와 같다.
 
@@ -143,7 +143,7 @@ if emptyString.isEmpty {
 // Prints "Nothing to see here"
 ```
 
-# String Mutability
+# <span style="color:blue">String Mutability</span>
 
 String을 변수로 선언하면 수정할 수 있고, 상수로 선언하면 수정할 수 없다.
 
@@ -161,7 +161,7 @@ constantString += " and another Highlander"
 // this reports a compile-time error - a constant string cannot be modified
 ```
 
-# Strings Are Value Types
+# <span style="color:blue">Strings Are Value Types</span>
 
 Swift의 String 타입은 value타입, 즉 **값 타입이다.**
 
@@ -177,7 +177,7 @@ Swift의 String 타입은 value타입, 즉 **값 타입이다.**
 
 **전달된 문자열이 수정이 되거나 하는 복사가 꼭 필요한 경우에만 복사를 한다는 말이다.**
 
-# Working with Characters
+# <span style="color:blue">Working with Characters</span>
 
 String을 for-in 구문과 함께 사용하면 한 글자씩 사용할 수 있다.
 
@@ -209,7 +209,7 @@ print(catString)
 // Prints "Cat!🐱"
 ```
 
-# Concatenating Strings and Characters
+# <span style="color:blue">Concatenating Strings and Characters</span>
 
 String은 + 연산자를 사용해서 새로운 String을 만들 수 있다.
 
@@ -265,7 +265,7 @@ print(goodStart + end)
 
 여러 줄 String을 사용할 때는 마지막 줄에서는 개행이 일어나지 않기 때문에 위와 같이 해줘야 원하는 대로 문자열을 합칠 수 있다.
 
-# String Interpolation
+# <span style="color:blue">String Interpolation</span>
 
 String Interpolation은 **문자열 보간**이라고 해석되고 이는 String에 상수, 변수, 리터럴, 연산 등의 값을 넣는 것을 말한다.
 
@@ -292,7 +292,7 @@ print(#"6 times 7 is \#(6 * 7)."#)
 // Prints "6 times 7 is 42."
 ```
 
-# Unicode
+# <span style="color:blue">Unicode</span>
 
 유니코드는 텍스트를 인코딩, 표현하기 위한 국제 표준이다.
 
@@ -346,7 +346,7 @@ let decomposed: Character = "\u{1112}\u{1161}\u{11AB}"   // ᄒ, ᅡ, ᆫ
 
 즉, Extended Grapheme Clusters를 사용하면 단일 스칼라에 다른 스칼라 값을 묶어서 보여줄 수 있다.
 
-# Counting Characters
+# <span style="color:blue">Counting Characters</span>
 
 String은 **count**라는 property로 해당 문자열이 포함하는 문자의 수를 나타낼 수 있다.
 
@@ -377,7 +377,7 @@ print("the number of characters in \(word) is \(word.count)")
 
 NSString의 length property는 UTF-16 표현 내 16비트 코드 단위수로 문자의 수를 센다.
 
-# Accessing and Modifying a String
+# <span style="color:blue">Accessing and Modifying a String</span>
 
 String의 method와 property를 사용해서 문자열에 접근하고 수정할 수 있다.
 
@@ -434,7 +434,7 @@ Collection 프로토콜로 만들어진 모든 타입은 위에서 나온 index(
 
 Collection 타입에는 String, Array, Dictionary, Set이 있다.
 
-# Inserting and Removing
+# <span style="color:blue">Inserting and Removing</span>
 
 String의 특정 인덱스에 Character를 넣거나 삭제할 수 있다.
 
@@ -466,7 +466,7 @@ welcome.removeSubrange(range)
 
 물론 이러한 method들도 아까 말한 Collection타입에서 모두 사용할 수 있다.
 
-# Substrings
+# <span style="color:blue">Substrings</span>
 
 String에서 prefix(_:)와 같은 메소드로 Substring을 가지고 오면 결과는 Substring 인스턴스가 된다.
 
@@ -504,7 +504,7 @@ Substring은 기존의 String이 사용하고 있는 메모리를 재사용하�
 
 만약 이 Substring을 새로운 String으로 생성해주게 되면 자체적으로 메모리를 가질 수 있게 된다.
 
-# Comparing Strings
+# <span style="color:blue">Comparing Strings</span>
 
 Swift는 텍스트 값을 비교하기 위해 세가지 방법을 제공한다.
 
@@ -601,7 +601,7 @@ print("\(mansionCount) mansion scenes; \(cellCount) cell scenes")
 
 hasSuffix(_:) method도 비슷하게 사용할 수 있다.
 
-# Unicode Representations of Strings
+# <span style="color:blue">Unicode Representations of Strings</span>
 
 유니코드 문자열이 텍스트 파일이나 다른 저장소에 저장될 때 문자열의 유니코드 스칼라 값은 여러가지 Unicode-defined encoding forms에 의해 인코딩 된다.
 

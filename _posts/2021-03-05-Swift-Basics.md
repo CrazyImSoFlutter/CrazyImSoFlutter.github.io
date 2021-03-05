@@ -136,7 +136,7 @@ print("a+b 는 \(a+b)", terminator:"")
 
 ![img2](https://user-images.githubusercontent.com/65299607/110048228-c80e2700-7d92-11eb-87ee-aa287e48c5b9.png)
 
-# Comments
+# <span style="color:blue">Comments</span>
 
 주석을 사용해서 실행되지 않는 텍스트를 추가해서 메모를 하거나 설명을 할 수 있다.
 
@@ -161,7 +161,7 @@ This is the end of the first multiline comment. */
 
 C언어와는 다르게 주석 안에 주석이 중첩 될 수 있다.
 
-# Semicolons(;)
+# <span style="color:blue">Semicolons(;)</span>
 
 C언어와 Java와는 다르게 Swift에서는 코드 마지막에 세미콜론(;)을 쓰지 않아도 된다.
 
@@ -172,7 +172,7 @@ C언어와 Java와는 다르게 Swift에서는 코드 마지막에 세미콜론(
 ```swift
 let cat = "🐱"; print(cat)
 ```
-# Integers
+# <span style="color:blue">Integers</span>
 
 ## Integers
 
@@ -207,7 +207,7 @@ Int를 사용할 때 컴퓨터가 32비트 환경이라면 Int32로, 64비트 �
 
 UInt도 Int와 마찬가지로 환경에 따라 알아서 정의된다.
 
-# Floating-Point Numbers
+# <span style="color:blue">Floating-Point Numbers</span>
 
 부동 소수점 숫자는 3.14, 0.1, -42.42와 같이 분수형 숫자이다.
 
@@ -221,7 +221,7 @@ Double의 정밀도는 십진수 15자리 이상이고, Float의 정밀도는 �
 
 적절한 부동 소수점 타입은 코드에서 작업해야 하는 값의 특성과 범위에 따라 달라진다고 한다.
 
-# Type Safety and Type Inference
+# <span style="color:blue">Type Safety and Type Inference</span>
 
 Swift는 **Type-safe** 언어이다.
 
@@ -248,7 +248,7 @@ let anotherPi = 3 + 0.14159
 
 **Swift는 부동 소수점을 추론할 때는 항상 Double로 추론한다.**
 
-# Numeric Literals
+# <span style="color:blue">Numeric Literals</span>
 
 정수형 리터럴은 아래와 같이 나타낼 수 있다.
 
@@ -284,7 +284,7 @@ let oneMillion = 1_000_000
 let justOverOneMillion = 1_000_000.000_000_1
 ```
 
-# Numeric Type Conversion
+# <span style="color:blue">Numeric Type Conversion</span>
 
 ## Integer Conversion
 
@@ -333,7 +333,7 @@ var sum = big + Int(small)
 
 어느 쪽으로든 한 쪽으로 맞춰주면 되는데, 데이터 타입의 크기가 작은 쪽으로 맞춰 줄 때는 **오버플로우**를 조심해야한다.
 
-# Type Aliases
+# <span style="color:blue">Type Aliases</span>
 
 Type Aliases는 타입의 별명이라고 볼 수 있다.
 
@@ -349,7 +349,7 @@ typealias AudioSample = UInt16
 
 단순히 별칭을 사용했을 때 실제 타입을 참조, 대신해서 사용하는 것을 허용해주는 것이다.
 
-# Booleans
+# <span style="color:blue">Booleans</span>
 
 Swift에는 기본적인 Boolean type으로 Bool을 가지고 있다.
 
@@ -362,7 +362,7 @@ let bool2 = false
 
 위의 코드처럼 상수나 변수를 생성하자마자 true, false로 설정하면 Bool로 선언할 필요가 없다.
 
-# Tuples
+# <span style="color:blue">Tuples</span>
 
 Tuple(튜플)은 여러 개의 값을 하나의 복합 값으로 그룹화하는 것을 말한다.
 
@@ -424,7 +424,7 @@ print ("십 : \(tuple.0), 십일 : \(tuple.1), 참인가? \(tuple.2)")
 var tuple : (num1 : String, num2 : String, bools : Bool) = ("ten", "eleven", true)
 print ("십 : \(tuple.num1), 십일 : \(tuple.num2), 참인가? \(tuple.bools)")
 ```
-# Optionals
+# <span style="color:blue">Optionals</span>
 
 Swift는 안전한 코딩을 할 수 있게 해주는 언어라고 알려져 있다.
 
@@ -583,7 +583,7 @@ if assumedString != nil {
 
 이러한 런타임 오류를 방지하기 위해 위와 같이 사용하면 된다.
 
-# Error Handling
+# <span style="color:blue">Error Handling</span>
 
 프로그램에서 오류가 발생하면 오류 처리를 사용하여 해결해야 한다.
 
@@ -636,7 +636,7 @@ makeASandwich 함수를 실행하려고 했는데 만약 오류가 발생하면 
 
 **즉, 에러의 종류에 따라 실행할 코드를 달리 하는 것이라고 볼 수 있다.**
 
-# Assertions and Preconditions
+# <span style="color:blue">Assertions and Preconditions</span>
 
 Assertions and Preconditions는 **런타임 시 발생하는 것들을 확인**하는 것이다.
 
@@ -691,7 +691,7 @@ if age > 10 {
 
 만약 조건이 이미 체크됐다면 assertionFailure(_:file:line:)함수를 사용해 실패를 알릴 수 있다.
 
-# Enforcing Precondtions
+# <span style="color:blue">Enforcing Precondtions</span>
 
 precondition은 '조건이 거짓이 될 가능성이 있지만 코드가 실행되기 위해선 반드시 참이어야할 때' 사용한다.
 

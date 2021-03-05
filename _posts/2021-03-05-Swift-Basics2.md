@@ -26,7 +26,7 @@ Swift는 C에서는 찾을 수 없는 ..<, ... 와 같은 범위 연산자를 �
 
 나중에 있을 Advanced Operators 단원에서는 사용자 정의 연산자를 정의하고 표준 연산자를 구현하는 방법에 대해 설명한다.
 
-# Terminology
+# T<span style="color:blue">erminology</span>
 
 연산자는 **unary(단항)**, **binary(이항)**, 또는 **ternary(삼항)**이다.
 
@@ -84,7 +84,7 @@ let (x, y) \= (1, 2)
 
 C, Objective-C의 대입 연산자와 달리 Swift의 대입 연산자는 값을 반환하지 않는다.
 
-# Arithmetic Operators
+# <span style="color:blue">Arithmetic Operators</span>
 
 Arithmetic Operators는 산술 연산자로 모든 숫자 유형에 대해 4가지 표준 산술 연산자를 지원한다.
 
@@ -138,7 +138,7 @@ let minusSix = -6
 let alsoMinusSix = +minusSix  // alsoMinusSix equals -6
 ```
 
-# Compound Assignment Operators
+# <span style="color:blue">Compound Assignment Operators</span>
 
 C언어와 마찬가지로 Swift에서도 Compound Assignment Operators(복합 할당 연산자)를 제공한다.
 
@@ -154,7 +154,7 @@ a += 2
 
 a += 2는 a = a + 2의 줄임말이다.
 
-# Comparison Operators
+# <span style="color:blue">Comparison Operators</span>
 
 Comparison Operators는 비교 연산자로 다음과 같이 존재한다.
 
@@ -186,7 +186,7 @@ Bool 값은 대소 비교가 안되는데 여기서 ("blue", false) < ("purple",
 
 즉, 튜플의 원소들이 모두 비교 연산자를 수행할 수 있는 값이 있을 때에 튜플에 비교 연산자를 적용할 수 있다.
 
-# Ternary Conditional Operator
+# <span style="color:blue">Ternary Conditional Operator</span>
 
 Ternary Conditional Operator는 삼항 조건 연산자로 **딱 한 가지 연산자만 존재**한다.
 
@@ -215,7 +215,7 @@ let rowHeight = contentHeight + (hasHeader ? 50 : 20)
 
 하지만 중첩해서 사용할 경우 코드의 줄은 줄어들지만 코드의 가독성이 떨어질 수 있다.
 
-# Nil-Coalescing Operator
+# <span style="color:blue">Nil-Coalescing Operator</span>
 
 Nil-Coalescing Operator는 a ?? b와 같은 연산자로 옵셔널을 분석할 때 사용한다.
 
@@ -241,7 +241,7 @@ var colorNameToUse = userDefinedColorName ?? defaultColorName
 
 var colorNameToUse = userDefinedColorName ?? defaultColorName에서 userDefinedColorName 값은 nil이기 때문에 defaultColorName의 값인 "red"가 colorNameToUse에 저장된다.
 
-# Range Operators
+# <span style="color:blue">Range Operators</span>
 
 Swift는 값의 범위를 쉽게 나타낼 수  있는 range operator를 제공한다.
 
@@ -330,7 +330,7 @@ range.contains(-1)  // true
 
 위의 코드와 같이 값이 존재하는지도 확인할 수 있다.
 
-# Logical Operators
+# <span style="color:blue">Logical Operators</span>
 
 Logical Operators는 논리 연산자로 Bool 타입을 반환한다.
 

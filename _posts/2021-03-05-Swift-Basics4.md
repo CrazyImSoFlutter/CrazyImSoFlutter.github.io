@@ -24,7 +24,7 @@ Swift의 Array, Set, Dictionary에 저장되는 값은 **항상 명확한 타입
 
 만약 Int자료형을 저장하는 Array에 String 타입의 값을 넣으려고 하면 오류가 발생한다.
 
-# Mutability of Collections
+# <span style="color:blue">Mutability of Collections</span>
 
 개발자가 Array, Set, Dictionary를 만들어 변수에 할당하면 해당 컬렉션들은 모두 변경 가능하다.
 
@@ -32,7 +32,7 @@ Swift의 Array, Set, Dictionary에 저장되는 값은 **항상 명확한 타입
 
 하지만 만약 개발자가 let으로 컬렉션을 선언하면, 즉 상수에 할당하면 값을 추가, 제거, 변경이 불가능하게 된다.
 
-# Arrays
+# <span style="color:blue">Arrays</span>
 
 Array는 같은 타입의 값들을 순서대로 저장하는 것을 말한다.
 
@@ -229,7 +229,7 @@ for (index, value) in shoppingList.enumerated() {
 // Item 4: Baking Powder
 // Item 5: Bananas
 ```
-# Sets
+# <span style="color:blue">Sets</span>
 
 Set은 동일한 타입의 값이 순서 없이 저장된 것을 말한다.
 
@@ -368,7 +368,7 @@ for genre in favoriteGenres {
 
 Set은 순서가 정의되어 있지 않지만 sorted() method를 사용하면 <연산자에 의한 대소 비교로 값들을 정렬할 수 있다.
 
-# Performing Set Operations
+# <span style="color:blue">Performing Set Operations</span>
 
 Set은 해석하면 집합으로 차집합, 합집합, 교집합 등의 개념을 사용할 수 있다.
 
@@ -451,7 +451,7 @@ farmAnimals.isDisjoint(with: cityAnimals)
 // true
 ```
 
-# Dictionaries
+# <span style="color:blue">Dictionaries</span>
 
 Dictionary는 key값과 value값의 쌍을 순서 없이 저장하는 타입이다.
 
