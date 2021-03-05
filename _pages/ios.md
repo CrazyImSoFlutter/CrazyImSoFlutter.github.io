@@ -1,5 +1,5 @@
 ---
-title: "iOS"
+title: "iOS 공식문서"
 permalink: /categories/iOS 공식문서/
 layout: category
 author_profile: true
