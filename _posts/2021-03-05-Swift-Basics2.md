@@ -3,7 +3,7 @@ title: "Swift-Basic Operators"
 excerpt: "Swift 공식 문서"
 toc: true
 toc_sticky: true
-t0c_label: "Swift-Basic Operators"
+toc_label: "Swift-Basic Operators"
 category:
  - iOS 공식문서
 tags:
