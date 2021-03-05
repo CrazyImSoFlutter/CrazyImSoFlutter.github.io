@@ -1,5 +1,5 @@
 ---
-title: "The Basics"
+title: "Swift-The Basics"
 excerpt: "Swift 공식 문서"
 toc: true
 toc_sticky: true
