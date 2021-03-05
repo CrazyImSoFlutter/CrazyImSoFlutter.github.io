@@ -7,6 +7,8 @@ categories:
 tags:
  - iOS
  - Basics
+ toc: true
+ toc_label: "Swift-The Basics"
 ---
 
 # The Basics
