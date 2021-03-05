@@ -3,7 +3,7 @@ title: "블로그 설명서"
 permalink: /about/
 ---
 
-## 코딩하는 고라니 블로그
+![teaser](https://user-images.githubusercontent.com/65299607/110059340-60160b80-7da7-11eb-8c77-113e6883ccde.png)
 
 요즘 세상에는 고라니도 코딩을 한다?!
 
