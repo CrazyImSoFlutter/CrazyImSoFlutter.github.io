@@ -8,7 +8,6 @@ categories:
  - iOS 공식문서
 tags:
  - iOS
- - Basics
 ---
 
 Swift는 IOS, macOS, watchOS, tvOS를 만들기 위한 새로운 프로그래밍 언어이다.
