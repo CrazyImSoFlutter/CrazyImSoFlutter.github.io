@@ -24,7 +24,7 @@ Switch의 case 일치 값은 임시 상수 혹은 변수에 담길 수 있다.
 
 복잡한 조건은 각 케이스의 where 절로 표현될 수 있다.
 
-# <span style=“color:blue”>For-In Loops</span>
+# <span style="color:blue">For-In Loops</span>
 
 for-in loop 구문은 Array의 값들, String의 Character 값들과 같은 값들에 사용할 수 있다.
 
@@ -112,7 +112,7 @@ for tickMark in stride(from: 3, through: hours, by: hourInterval) {
 }
 ```
 
-# <span style=“color:blue”>While Loops</span>
+# <span style="color:blue">While Loops</span>
 
 while loop는 조건이 거짓이 될 때 까지 명령문을 수행하는 loop이다. 
 
@@ -154,7 +154,7 @@ repeat {
 
 즉, 위와 같은 코드를 실행하면 조건이 age < 30인데 처음부터 age가 30이므로 기존의 while에서는 명령문이 한 번도 실행되지 않지만 repeat-while 구문에선 명령문을 수행 후 조건을 보기 때문에 한 번 수행 뒤 while 문이 종료되게 된다.
 
-# <span style=“color:blue”>Conditional Statements</span>
+# <span style="color:blue">Conditional Statements</span>
 
 특정 조건에 따라 코드를 수행하는 것은 유용하다.
 
@@ -341,7 +341,7 @@ default:
 
 위의 코드에서 볼 수 있듯, 튜플의 각각의 원소에 대해 조건을 확인할 수 있다.
 
-# <span style=“color:blue”>Value Bindings</span>
+# <span style="color:blue">Value Bindings</span>
 
 switch의 case에서 일시적인 상수나 변수를 선언해서 사용할 수 있다.
 
@@ -378,7 +378,7 @@ default:
 }
 ```
 
-# <span style=“color:blue”>Where</span>
+# <span style="color:blue">Where</span>
 
 switch 구문에서는 where절을 사용하여 추가 조건을 확인할 수 있다.
 
@@ -404,7 +404,7 @@ case let (x, y):
 
 → 특정 패턴에 Bool타입 조건을 지정하거나 어떤 타입의 특정 프로토콜 준수 조건을 추가하는 등의 기능이다.
 
-# <span style=“color:blue”>Compound Cases</span>
+# <span style="color:blue">Compound Cases</span>
 
 ' , '로 구분하여 여러 케이스들을 하나의 body와 공유할 수 있다.
 
@@ -439,7 +439,7 @@ default:
 // Prints "On an axis, 9 from the origin"
 ```
 
-# <span style=“color:blue”>Control Transfer Statements</span>
+# <span style="color:blue">Control Transfer Statements</span>
 
 Control Transfer Statements는 코드가 실행될 때 다른 코드로 명령을 줘서 실행되는 순서를 바꾸는 역할을 한다.
 
@@ -473,7 +473,7 @@ Break문은 control flow를 즉시 종료하는 기능을 가지고 있다.
 
 Break문은 switch또는 loop문의 실행을 다른 경우보다 빨리 종료하고 싶을 때 사용할 수 있다.
 
-# <span style=“color:blue”>Break in a Loop Statement</span>
+# <span style="color:blue">Break in a Loop Statement</span>
 
 만약 loop문 안에서 break를 사용하면 루프는 즉시 종료되고 루프의 마지막 글자인 " } "로 이동한다.
 
@@ -566,7 +566,7 @@ checkage: while age < 30{
 
 위의 코드와 같이 사용할 수 있다.
 
-# <span style=“color:blue”>Early Exit</span>
+# <span style="color:blue">Early Exit</span>
 
 If문과 비슷하게 guard문도 조건의 결과에 따라 명령문을 실행한다.
 
@@ -615,7 +615,7 @@ if문과의 차이점을 얘기하자면, else 구문이 반드시 필요하다�
 1. 코드의 중첩을 막아준다.
 2. guard 구문을 많이 사용해도 코드의 depth가 깊어지지 않는다.
 
-# <span style=“color:blue”>Checking API Availability</span>
+# <span style="color:blue">Checking API Availability</span>
 
 Swift는 API 사용 가능성 확인을 지원하기 때문에 실수로 사용할 수 없는 API를 사용하는 일을 방지할 수 있다.
 
