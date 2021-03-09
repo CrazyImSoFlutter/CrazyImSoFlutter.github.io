@@ -1,6 +1,6 @@
 ---
 title: "Swift-Closures"
-exercpt: "Swift 공식 문서"
+excerpt: "Swift 공식 문서"
 toc: true
 toc_sticky: true
 toc_label: "Swift-Closures"
@@ -389,7 +389,7 @@ someFunctionWithEscapingClosure(_ :)함수는 매개 변수로 클로저를 받�
 
 self를 참조하는 Escaping 클로저는 좀 더 신중하게 사용해야 한다.
 
-Escape 클로저에서 ㄴㄷ
+Escape 클로저에서 self를 캡쳐하면 실수로 강력한 참조를 쉽게 만들 수 있다.
 
 강한 참조를 만들게 되면 Swift의 ARC로 인해 메모리 낭비가 발생할 수 있다.
 
