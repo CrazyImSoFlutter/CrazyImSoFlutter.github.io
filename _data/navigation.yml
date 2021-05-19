@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "알고리즘"
+    url: /categories/알고리즘/
   - title: "게임분석"
     url: /categories/게임분석/
   - title: "iOS-공식문서"
